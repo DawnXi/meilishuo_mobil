@@ -2,79 +2,215 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />    
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=yes"/>
+<meta name="msapplication-tap-highlight" content="no" />
 	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-	<div class="header">
-		<div class="logo"></div>
-		<div class="mian_search">
-			<div class="search_icon"></div>
-			<input type="text">
+	<div class="container">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="main_search">
+				<form>
+				  <div class="search_icon"></div>
+				  <input type="text">
+				</form>
+			</div>
+			<div class="logo"></div>
 			<div class="message"></div>
 		</div>
-	</div>
-	<div class="banner">
-		<img src="">
-	</div>
-	<div class="main_nav">
-		<ul>
-			<li>
-				<div class="nav_icon"></div>
-				<div class="nav_text"></div>
-			</li>
-		</ul>
-	</div>
-	<div class="seckill_nav">
-		<div class="yesterday"></div>
-		<div class="time_point">
-			<div class="time"></div>
-			<div class="text"></div>
+	    <!--轮播图 -->
+		<div class="banner">
+			<img src="./picture/banner.jpg">
 		</div>
-		<div class="tomorrow"></div>
-	</div>
-	<div class="seckill_goodslist">
-	  <div class="seckill_title"></div>
-		<ul>
-		   <li>
-			<div class="goods_img"></div>
-			<div class="goods_title"></div>
-			<div class="new_price">
-				<div class="price_text"></div>
-			</div>
-			<div class="old_price">
-				<div class="price_text"></div>
-			</div>
-			<div class="only">
-				<div class="bg"></div>
-				<div class="text"></div>
-			</div>
-			<div class="buy_now"></div>
-		   </li>
-		</ul>
-	</div>
-	<div class="week_popular">
-		<div class="title"></div>
-		<ul>
-			<li>
-				<div class="nav_icon"></div>
-				<div class="nav_text"></div>
-			</li>
-		</ul>
-		<div class="more"></div>
-	</div>
-	<div class="kinds">
-		<div class="kinds_nav">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
-		<div class="kinds_goods_list">
+		<!-- 主导航 -->
+		<div class="main_nav">
 			<ul>
 				<li>
-					<div class="img"><img src="" alt=""></div>
-					<div class="goods_title"></div>
-					<div class="now_peice"></div>
-					<div class="connect"></div>
+					<div class="nav_icon">
+						<img src="./images/k1.gif">
+					</div>
+					<div class="nav_text">圣诞种草</div>
+				</li>
+				<li>
+					<div class="nav_icon">
+						<img src="./images/k2.png">
+					</div>
+					<div class="nav_text">新品速递</div>
+				</li>
+				<li>
+					<div class="nav_icon">
+						<img src="./images/k3.png">
+					</div>
+					<div class="nav_text">大家都在卖</div>
+				</li>
+				<li>
+					<div class="nav_icon">
+						<img src="./images/k4.png">
+					</div>
+					<div class="nav_text">签到灵泉</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 秒杀模块 -->
+		<div class="seckill_nav">
+			<div class="today"></div>
+			<div class="time_point">
+				<div class="time">12:00</div>
+				<div class="text">一开始</div>
+			</div>
+			<div class="time_point">
+				<div class="time">16:00</div>
+				<div class="text">正在抢购</div>
+			</div>
+			<div class="time_point">
+				<div class="time">22:00</div>
+				<div class="text">即将开始</div>
+			</div>
+			<div class="tomorrow"></div>
+		</div>
+		<!-- 秒杀商品列表 -->
+		<div class="seckill_goodslist">
+			<div class="seckill_header">
+			  <div class="seckill_title">限时限量 底价疯抢</div>
+			  <div class="seckill_endtime">
+				<div class="endtime_icon"></div>
+				<span>激励结束还有</span>
+				<div class="timer">23:05:03</div>
+			  </div>
+			</div>
+			<ul>
+			   <li>
+			   	 <img class="goods_img" src="./picture/g5.jpg">
+				 <div class="goods_title">超薄保暖内衣3秒热发热美体套装（年终特价，不退 153431</div>
+				 <div class="price">
+				 	<div class="new_price">
+				 	限时价
+					<div class="price_text">￥18.80</div>
+					 </div>
+					<div class="old_price">
+					 	原价
+						<div class="price_text">￥65.00</div>
+					</div>
+				 </div>
+				 <div class="buy_info">
+				 	<div class="only">
+					<div class="bg"></div>
+					<div class="text">仅剩239件</div>
+				 </div>
+				 </div>
+				 <div class="buy_now">立即抢购</div>
+			   </li>
+			</ul>
+		</div>
+		<!-- 本周流行 -->
+		<div class="week_popular">
+			<div class="title">本周流行</div>
+			<ul>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+				<li>
+					<div class="nav_icon"></div>
+					<div class="nav_text">八戒长袖群</div>
+				</li>
+			</ul>
+			<div class="more"><span>查看更多 ></span></div>
+		</div>
+		<!-- 推荐 -->
+		<div class="recommend">
+			<div class="recommend_nav">
+				<ul>
+					<li>流行</li>
+					<li>新款</li>
+					<li>静心庵</li>
+				</ul>
+			</div>
+			<div class="recommend_goods_list">
+				<ul>
+					<li>
+						<div class="img"><img src="./picture/g1.jpg" alt=""></div>
+						<div class="goods_title"> 2017新款韩版女装宽松大毛领连帽袖口字母中长款羽绒棉衣外套 </div>
+						<div class="info">
+							<div class="now_price">198.00</div>
+							<div class="connect"><span></span>340</div>
+						</div>
+					</li>
+					<li>
+						<div class="img"><img src="./picture/g2.jpg" alt=""></div>
+						<div class="goods_title"> 2017新款韩版女装宽松大毛领连帽袖口字母中长款羽绒棉衣外套 </div>
+						<div class="info">
+							<div class="now_price">198.00</div>
+							<div class="connect"><span></span>340</div>
+						</div>
+					</li>
+					<li>
+						<div class="img"><img src="./picture/g6.jpg" alt=""></div>
+						<div class="goods_title"> 2017新款韩版女装宽松大毛领连帽袖口字母中长款羽绒棉衣外套 </div>
+						<div class="info">
+							<div class="now_price">198.00</div>
+							<div class="connect"><span></span>340</div>
+						</div>
+					</li>
+					<li>
+						<div class="img"><img src="./picture/g5.jpg" alt=""></div>
+						<div class="goods_title"> 2017新款韩版女装宽松大毛领连帽袖口字母中长款羽绒棉衣外套 </div>
+						<div class="info">
+							<div class="now_price">198.00</div>
+							<div class="connect"><span></span>340</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 页脚 -->
+		<div class="footer">
+			<ul>
+				<li>
+					<div class="img"><img src="./images/home.png" alt=""></div>
+					<span class="text">首页</span>
+				</li>
+				<li>
+					<div class="img"><img src="./images/class.png" alt=""></div>
+					<span class="text">分类</span>
+				</li>
+				<li>
+					<div class="img"><img src="./images/cart.png" alt=""></div>
+					<span class="text">够恶u车</span>
+				</li>
+				<li>
+					<div class="img"><img src="./images/my.png" alt=""></div>
+					<span class="text">我</span>
 				</li>
 			</ul>
 		</div>
