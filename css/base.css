@@ -1,64 +1,62 @@
 /*重置样式*/
 html{
-	font-size:62.5%; 
+    font-size:62.5%; 
 }
 *,::before,::after{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body{
-	width: 100%;
-	max-width: 750px;
-	margin: 0 auto;
-	background: #e6e6e6;
-	color: #333;
-	font-size:1.6rem;
+    background: #e6e6e6;
+    color: #333;
+    font-size:1.6rem;
 }
 a{
-	color: #333;
-	text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
+
 ul,ol{
-	list-style: none;
+    list-style: none;
 }
 input,textarea{
-	outline: none;
-	border:none;
-	resize: none;
+    outline: none;
+    border:none;
+    resize: none;
 }
 
 
 /*公用样式*/
 
 .fl{
-	float: left;
+    float: left;
 }
 .fr{
-	float: right;
+    float: right;
 }
 .clearfix{
-	clear: both;
+    clear: both;
 }
 .ml{
-	margin-left:10px;
+    margin-left:10px;
 }
 .mr{
    margin-right: 10px;
 }
 .pl{
-	padding-left: 20px;
+    padding-left: 20px;
 }
 .pr{
-	padding-right: 20px;
+    padding-right: 20px;
 }
 .bl{
-	border-left: solid red 1px;
+    border-left: solid red 1px;
 }
 .br{
-	border-right: solid red 1px; 
+    border-right: solid red 1px; 
 }
 .hide{
-	display: none;
+    display: none;
 }
 
 
@@ -78,21 +76,25 @@ input,textarea{
 }
 .header .logo{
     width: 15%;
-    height: 80px;
-    background:  goldenrod;
+    height:  0px;
+    padding-top: 11%;
     float:  left;
-    margin-left: -100%;
-    background: url("../images/logo.png");
+    margin-left: -95%;
+    background: url("../images/logo.png") no-repeat;
+    background-size:  contain;
 }
 .header .main_search{}
 .header .main_search .search_icon{
-    width:  30px;
-    height:  30px;
+    width: 6%;
+    max-width: 23px;
+    height: 0;
+    padding-top: 6%;
     background: #5457d7;
     position:  absolute;
     left: 18%;
-    top: 9px;
-    background: url("../images/search.png");
+    top: 11px;
+    background: url("../images/search.png") no-repeat;
+    background-size:  contain;
 }
 .header form{
     margin: 0 50px 0 50px;
@@ -103,29 +105,32 @@ input,textarea{
 .header input{
     width: 65%;
     height:  35px;
-    line-height:  35px;
+    line-height:  35px; 
 }
 .header .message{
-    width: 15%;
-    height:  50px;
+    width: 6%;
+    height: 0px;
+    padding-top: 4%;
     background:  indianred;
     float: left;
-    margin-left: -15%;
-    background: url("../images/message.png");
+    margin-left: -12%;
+    background: url("../images/message.png") no-repeat;
+    background-size:  contain;
 }
 /*页脚*/
 .footer{
     width:  100%;
-    max-width:  750px;
+    max-width: 750px;
     min-width: 320px;
     background: #ffffff;
     position:  fixed;
     bottom:  0px;
 }
 .footer ul{
-	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
+    width:  100%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .footer ul li{
     width: 15%;
@@ -133,7 +138,7 @@ input,textarea{
     text-align:  center;
 }
 .footer ul li + li{
-	margin-left: 11%;
+    margin-left: 11%;
 }
 .footer ul li .img{
     width: 100%;
