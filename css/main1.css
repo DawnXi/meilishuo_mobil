@@ -1,0 +1,121 @@
+body{
+    background: #c2d96f;
+}
+.container{
+    background: none;
+}
+/*头部 主图*/
+img.main_img {
+    width:  100%;
+}
+/*头部*/
+.title {
+    width:  100%;
+    text-align:  center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.3rem;
+    /* background: #fff; */
+}
+.title span{
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.3rem;
+    vertical-align: middle;
+    background-image: url(../images/main_icon.png);
+    background-size:  contain;
+    margin-bottom: 0.2rem;
+}
+
+span.left {}
+
+.title .text {
+    display: inline-block;
+    font-size: 0.35rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+span.right {
+     -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;
+}
+/*商品列表*/
+ul.block_goodslist {
+    width:  100%;
+    overflow:  hidden;
+    margin-left: 1%;
+}
+
+.block_goodslist li {
+    display:  inline-block;
+    width: 44%;
+    margin-left:  1%;
+    margin-right: 1%;
+    float:  left;
+    text-align:  center;
+    margin-bottom: 0.3rem;
+    padding: 0.1rem;
+    background: #fff;
+}
+
+.block_goodslist li img {
+    width: 100%;
+}
+.block_goodslist li .goods_title{
+    font-size: 0.3rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0.35rem;
+}
+.block_goodslist li .price{}
+.block_goodslist li .price span.price_tags{
+    font-size: 0.2rem;
+    border-radius: 0.08rem;
+    line-height: 0.33rem;
+    height: 0.34rem;
+    display: inline-block;
+    padding: 0 0.07rem;
+    float: left;
+    margin-top: 0.14rem;
+    color: #ffff;
+    border: 1px solid #ffff;
+    background-color: #d7116e;
+}
+.block_goodslist li .price .now {
+    display:  inline-block;
+    font-size: 0.5rem;
+    color: #ff318c;
+    text-align:  center;
+    /* padding-bottom: 15px; */
+}
+.block_goodslist li .price .now span{
+    background: url("../images/more_icon.png");
+}
+.block_goodslist li .price .old {
+
+display:  inline-block;
+
+font-size: 0.2rem;
+
+color: #666;
+
+text-decoration:  line-through;
+}
+
+.block_goodslist li .buy_now {
+    display:  inline-block;
+    font-size: 0.3rem;
+    padding: 0.05rem 0.25rem;
+    width: 75%;
+    height: 0.7rem;
+    line-height: 0.65rem;
+    color: #fff;
+    background: #f41056;
+    border-radius: 50px;
+    text-align:  center;
+}

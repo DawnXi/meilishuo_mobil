@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />    
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=yes"/>
+    <meta name="msapplication-tap-highlight" content="no" />
 	<title>cart</title>
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/cart.css">
 </head>
 <body>
+	<div class="container">
+		<!-- 头部 -->
+		<div class="header">
+			<div class="back"><</div>
+			<div class="title">购物车</div>
+			<div class="delete">删除</div>
+		</div>
+		<!-- 商品列表 -->
+		<div class="shop_list">
+			<div class="shop">
+				<div class="shop_info">
+					<div class="left">
+						<div class="radio"></div>
+						<div class="shopname">店铺：<span>无与伦比</span></div>
+					</div>
+					<div class="right">
+						<div class="total">合计：<span>￥39.90</span></div>
+						<div class="up">^</div>
+					</div>
+				</div>
+				<!-- 商品信息 -->
+				<div class="goods_info">
+					<div class="radio"></div>
+					<img src="./picture/g5.jpg" alt="">
+					<div class="goods_dtails">
+						<div class="goods_title">2017秋季韩版新品显瘦女</div>
+						<div class="color">颜色：<span>黑色</span></div>
+						<div class="size">尺码：<span>尺码：25码【建议体重75-85斤】</span></div>
+	                    <form action="" class="counter">
+	                    	<div class="reduce">-</div>
+	                    	<input type="text" class="number" placeholder="1">
+	                    	<div class="plus">+</div>
+	                    </form>
+					</div>
+					<div class="total">
+						<span>￥39.90</span>
+						<div class="old">￥57.00</div>
+					</div>
+					<div class="delete_goods"></div>
+				</div>
+			</div>
+			<!-- 失效商品列表 -->
+			<div class="invalid_goodslist">
+				<img src="./picture/g5.jpg" alt="">
+				<div class="goods_dtails">
+						<div class="goods_title">2017秋季韩版新品显瘦女</div>
+						<div class="color">颜色：<span>黑色</span></div>
+						<div class="size">尺码：<span>尺码：25码【建议体重75-85斤】</span></div>
+				</div>
+				<div class="delete_goods"></div>
+			</div>
+		</div>
+		<!-- 结算模块 -->
+		<div class="account">
+			<div class="left">
+				<div class="radio"></div>
+				<span>全选</span>
+			</div>
+			<div class="middle">
+				<div class="all">
+					合计：
+					<span>￥58.70</span>
+					<div class="text">不含运费、优惠扣减</div>
+				</div>
+			</div>
+			<div class="go_buy">去结算(2)</div>
+		</div>
+	</div>
 	
 </body>
 </html>

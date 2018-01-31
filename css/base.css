@@ -1,6 +1,5 @@
 /*重置样式*/
-html{
-    font-size:62.5%; 
+html,body{
 }
 *,::before,::after{
     margin: 0;
@@ -9,7 +8,6 @@ html{
 body{
     background: #e6e6e6;
     color: #333;
-    font-size:1.6rem;
 }
 a{
     color: #333;
@@ -67,6 +65,8 @@ input,textarea{
     min-width: 320px;
     margin: 0 auto;
     background: #fff;
+    font-size:  0.14rem;
+    position:  relative;
 }
 .main_search{
     width:  100%;

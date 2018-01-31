@@ -1,0 +1,206 @@
+/*头部*/
+.header{
+    width:  100%;
+    font-size: 0.45rem;
+    background:  gold;
+    text-align:  center;
+    overflow:  hidden;
+    padding: 10px 0;
+}
+.header .back{
+    /* width:  30px; */
+    /* height:  30px; */
+    float:  left;
+}
+.header .title{
+    display:  inline-block;
+    /* font-size: 0.45rem; */
+}
+.header .delete{
+    float:  right;
+    /* font-size: 0.45rem; */
+    margin-right: 20px;
+}
+
+/*个人信息*/
+.my_info {
+    width:  100%;
+    /* height:  300px; */
+    /* padding-bottom: 10px; */
+    /* background: #eb8503; */
+    text-align: center;
+    color: #fff;
+    background: url("../images/my_bg.jpg");
+    background-size: 100% 100%;
+}
+
+.my_info {}
+
+img.my_head {
+    display:  inline-block;
+    width: 80px;
+    height: 80px;
+    background:  red;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+
+.myname {
+    font-size: 0.25rem;
+    line-height: 30px;
+}
+
+.my_details {
+    width:  100%;
+    /* height:  80px; */
+    /* background:  greenyellow; */
+    border-top: red solid;
+    /* padding-bottom: 10px; */
+    /* color: #fff; */
+    overflow:  hidden;
+}
+
+.my_collect {
+    width:  50%;
+    /* height: 100%; */
+    float:  left;
+    padding-top: 22px;
+    /* border-right:  red solid; */
+}
+
+.collect_item {
+    display:  inline-block;
+    display: inline-block;
+    width: 48%;
+    /* line-height: 100%; */
+    /* height: 87px; */
+    /* text-align: left; */
+    font-size: 0.27rem;
+    /* padding-bottom: 25px; */
+    /* padding-bottom: 25px; */
+    /* display: inline-block; */
+    /* background: tan; */
+}
+
+.my_others {
+    width: 49%;
+    float: right;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-left: red solid;
+}
+
+.other_item {
+    display:  inline-block;
+    width: 48%;
+    font-size: 0.3rem;
+    /* display: inline-block; */
+    /* background: tan; */
+}
+.other_item .icon {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../images/icons2.png) no-repeat -2% 100%;
+    background-size: 3.5rem;
+    display: inline-block;
+}
+/*订单列表*/
+.order_nav {
+    width:  100%;
+    background: #fff;
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.order_nav ul li {
+    display: inline-block;
+    text-align:  center;
+    font-size: 0.3rem;
+}
+.order_nav .icon {
+    display:  inline-block;
+    width: 0.34rem;
+    height:  0.34rem;
+    background: url("../images/icons2.png") no-repeat -2% 100%;
+    background-size: 2.5rem;
+    /* background-position-x: 0px; */
+    /* background-position-y: 758px; */
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../images/icons2.png) no-repeat -2% 100%;
+    background-size: 3.5rem;
+    display: inline-block;
+}
+.order_nav ul li +li {
+    margin-left: 5%;
+}
+
+.order_nav ul {
+    /* width: 80%; */
+    text-align:  center;
+}
+
+/*流行单品*/
+.popular_title {
+    width:  100%;
+    height:  50px;
+    line-height: 50px;
+    font-size:  20px;
+    background: #fff;
+}
+
+.popular_title .left {
+    float:  left;
+}
+
+.popular_title .right {
+    float:  right;
+}
+.popular_goodslist li {
+    /* display: inline-block; */
+    width: 47%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* height: 200px; */
+    background: #fff;
+    float:  left;
+    /* overflow:  hidden; */
+}
+
+.popular_goodslist img {
+    display:  block;
+    width: 100%;
+    height:  auto;
+    margin-bottom: 15px;
+}
+
+ul.popular_goodslist {
+    width:  100%;
+    overflow:  hidden;
+    background: #fff;
+    /* padding-left:  1%; */
+    /* padding-right:  1%; */
+    overflow:  hidden;
+}
+
+.tags {
+    display:  inline-block;
+    background: #8BC34A;
+    font-size: 0.3rem;
+}
+
+/*回到顶部*/
+.go_top {
+    width: 60px;
+    height:  60px;
+    background: #3b3a3a;
+    position: absolute;
+    right: 10px;
+    top: 90%;
+    text-align:  center;
+    line-height: 60px;
+    font-size: 0.35rem;
+    color:  #FFF;
+    border-radius: 60px;
+}
