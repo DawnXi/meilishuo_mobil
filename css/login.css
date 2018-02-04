@@ -1,0 +1,116 @@
+/*头部*/
+.header{
+    /* width: 90%; */
+    font-size: 0.45rem;
+    background:  gold;
+    text-align:  center;
+    overflow:  hidden;
+    padding: 10px 20px 10px 20px;
+}
+.header .back{
+    /* width:  30px; */
+    /* height:  30px; */
+    float:  left;
+}
+.header .title{
+    display:  inline-block;
+    /* font-size: 0.45rem; */
+}
+.header .delete{
+    float:  right;
+    /* font-size: 0.45rem; */
+    /* margin-right: 20px; */
+}
+/*表单*/
+.container form{
+    width: 95%;
+    text-align:  center;
+    margin:  0 auto;
+    color: #ededed;
+    position:  relative;
+    /* right: 0px; */
+    /* top: 3.5rem; */
+}
+.container form input{
+    width: 100%;
+    text-align:  center;
+    font-size: 0.5rem;
+    /* margin-top: 8.5rem; */
+    /* line-height: 1.4rem; */
+    margin: 0 auto;
+    border-bottom: #7e7e7e solid;
+    /* color: #ededed !important; */
+}
+.container form .submit{
+    width: 100%;
+    height:  1rem;
+    line-height:  1rem;
+    font-size: .5rem;
+    margin: 0 auto;
+    color: #fff;
+    background: #ff1877;
+    margin-top: .3rem;
+    border-radius: 3px;
+}
+.container form .text{
+    font-size: .3rem;
+    text-align: center;
+    margin-bottom: .3rem;
+    margin-top: 0.3rem;
+}
+.other{
+    width: 95%;
+    margin:  0 auto;
+    height: 1rem;
+    font-size: .3rem;
+    line-height: 1rem;
+    /* background:  khaki; */
+    color: red;
+}
+.other .no_password{
+    float:  left;
+}
+.other .register{
+    float:  right;
+}
+
+/*qq登录*/
+.qq{
+    width: 80%;
+    margin:  0 auto;
+    text-align:  center;
+}
+.qq span.logon_line{
+    display: inline-block;
+    width: 2.67rem;
+    height: .2rem;
+    border-bottom: .01rem solid #f1f1f1;
+}
+.qq .or{
+    font-size: .3rem;
+    display:  inline-block;
+    /* margin:  0 auto; */
+    /* text-align:  center; */
+}
+.qq .icon{
+    width: 2rem;
+    height:  2rem;
+    margin:  0 auto;
+    background: url("../images/qq.png");
+    background-size:  contain;
+    margin-top: .3rem;
+}
+/*注册*/
+.code{
+    position:  absolute;
+    right: 0px;
+    top: 2.5rem;
+    color: red;
+}
+.service{
+    /* width: 80%; */
+    line-height: 1rem;
+    text-align: center;
+    /* margin:  0 auto; */
+}
+.service a{}
