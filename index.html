@@ -10,6 +10,7 @@
 	<title>index</title>
 	<link rel="stylesheet" type="text/css" href="./css/base.css">
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<script type="text/javascript" src="./js/rem.js" fu-psd="750" fu-min="50" fu-max="100"></script>
 </head>
 <body>
 	<div class="container">
@@ -58,22 +59,22 @@
 			</ul>
 		</div>
 		<!-- 秒杀模块 -->
-		<div class="seckill_nav">
-			<div class="today"></div>
-			<div class="time_point">
+		<ul class="seckill_nav">
+			<li class="today"></li>
+			<li class="time_point">
 				<div class="time">12:00</div>
 				<div class="text">一开始</div>
-			</div>
-			<div class="time_point">
+			</li>
+			<li class="time_point">
 				<div class="time">16:00</div>
 				<div class="text">正在抢购</div>
-			</div>
-			<div class="time_point">
+			</li>
+			<li class="time_point">
 				<div class="time">22:00</div>
 				<div class="text">即将开始</div>
-			</div>
-			<div class="tomorrow"></div>
-		</div>
+			</li>
+			<li class="tomorrow"></li>
+		</ul>
 		<!-- 秒杀商品列表 -->
 		<div class="seckill_goodslist">
 			<div class="seckill_header">
@@ -86,7 +87,9 @@
 			</div>
 			<ul>
 			   <li>
-			   	 <img class="goods_img" src="./picture/g5.jpg">
+			   	<div class="goods_img">
+			   	  <img src="./picture/g5.jpg">
+			   	</div>
 				 <div class="goods_title">超薄保暖内衣3秒热发热美体套装（年终特价，不退 153431</div>
 				 <div class="price">
 				 	<div class="new_price">

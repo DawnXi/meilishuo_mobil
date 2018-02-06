@@ -1,5 +1,5 @@
 
-/*轮播图*/
+/*è½®æ’­å›¾*/
 .banner{
     width:  100%;
     background: #977112;
@@ -8,7 +8,7 @@
     width:  100%;
     height:  auto;
 }
-/*主导航*/
+/*ä¸»å¯¼èˆª*/
 .main_nav{
     width:  100%;
     min-width: 320px;
@@ -37,12 +37,17 @@ display:  inline-block;
     width: 100%;
     height: auto;
 }
-.main_nav ul li .nav_text{display: block;text-align:  center;}
-/*秒杀模块*/
+.main_nav ul li .nav_text{display: block;text-align:  center;font-size:  .25rem;}
+/*ç§’æ€æ¨¡å—*/
 .seckill_nav{
     width:  100%;
-    height:  66px;
-    margin-top: 30px;
+    overflow:  hidden;
+    /* height:  66px; */
+    margin-top: 15px;
+    padding:  .2rem;
+}
+.seckill_nav li +li{
+    margin-left: 10%;
 }
 .seckill_nav .today{
     padding-bottom  height: 0;
@@ -58,12 +63,13 @@ display:  inline-block;
     height:  50px;
     color: #E91E63;
     float:  left;
-    margin-left:  10px;
-    margin-right: 10px;
     text-align:  center;
+    font-size: .3rem;
 }
 .seckill_nav .time{}
-.seckill_nav .text{}
+.seckill_nav .text{
+    font-size: .2rem;
+}
 .seckill_nav .tomorrow{
     width: 8%;
     height:  0px;
@@ -73,24 +79,31 @@ display:  inline-block;
     background: url("../images/yesterday.png");
     background-size: 100% 100%;
 }
-/*秒杀商品列表*/
+/*ç§’æ€å•†å“åˆ—è¡¨*/
 .seckill_goodslist{
-    margin-top: 38px;
+    /* margin-top: 38px; */
     background:  cornflowerblue;
 }
 .seckill_header{
     width: 100%;
-    height:  30px;
+    /* height:  30px; */
     background: bisque;
     float:  left;
 }
-.seckill_header .seckill_title{}
+.seckill_header .seckill_title{
+    font-size: .25rem;
+    line-height:  0.5rem;
+}
 .seckill_header .seckill_endtime{
     background:  chartreuse;
     border-radius: 10px;
     float:  right;
-    margin-top: -15px;
+    margin-top: -20px;
     margin-right: 20px;
+    font-size:  .2rem;
+    line-height: 0.4rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
 }
 .seckill_endtime .endtime_icon{
     width:  20px;
@@ -109,13 +122,23 @@ display:  inline-block;
 }
 .seckill_goodslist .goods_img{
     width: 30%;
-    height: 200px;
+    /*height: 0;*/
+    /*padding-top: 30%;*/
     float:  left;
     margin-right: 10px;
+   /* background: url(../picture/g2.jpg);
+    background-size: 100% 100%;*/
+}
+.seckill_goodslist .goods_img img{
+    width: 100%;
+    height: auto;
 }
 .seckill_goodslist .goods_title{
-    font-size: 20px;
+    font-size: .35rem;
     margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 ..seckill_goodslist .price{}
 ..seckill_goodslist .buyinfo{}
@@ -124,6 +147,7 @@ display:  inline-block;
     margin-bottom: 15px;
     margin-right: 5px;
     position:  relative;
+    font-size: .25rem;
 }
 .seckill_goodslist .new_price .price_text{
     display:  inline-block;
@@ -132,40 +156,51 @@ display:  inline-block;
     display:  inline-block;
     margin-bottom: 15px;
     position:  relative;
+    font-size:  .25rem;
 }
 .seckill_goodslist .old_price .price_text{
     display:  inline-block;
 }
 .seckill_goodslist .only{
     display: inline-block;
-    width: 35%;
-    max-width: 150px;
+    /* width: 35%; */
+    /* max-width: 150px; */
     text-align:  center;
-    height:  30px;
     float:  left;
     border-radius:  10px;
     background:  gainsboro;
+    font-size: .25rem;
+    line-height: .25rem;
+    padding: .2rem;
 }
 .seckill_goodslist .only .bg{}
-.seckill_goodslist .only .text{}
+.seckill_goodslist .only .text{
+    font-size:  .25rem;
+}
 .seckill_goodslist .buy_now{
     display:  inline-block;
-    width: 25%;
-    max-width: 100px;
-    height:  30px;
+    /* width: 25%; */
+    /* max-width: 100px; */
+    /* height:  30px; */
     border-radius: 10px;
     background:  goldenrod;
     float:  right;
     text-align:  center;
     margin-right: 20px;
+    font-size: .25rem;
+    line-height: .25rem;
+    padding: .2rem;
 }
 
-/*本周流行*/
+/*æœ¬å‘¨æµè¡Œ*/
 .week_popular{
     text-align:  center;
 }
 .week_popular .title{
     display: block;
+    font-size:  .35rem;
+    font-weight:  bold;
+    line-height: 1.2rem;
 }
 .week_popular ul{
     width: 100%;
@@ -184,18 +219,27 @@ display:  inline-block;
 .week_popular ul li .nav_icon{
     display:  inline-block;
     width:  100%;
-    height: 50px;
+    height: 0px;
+    padding-top: 100%;
     background: url("../images/k2.png");
     background-size: 100% 100%;
 }
-.week_popular ul li .nav_text{}
-.week_popular .more{}
-.week_popular .more span{}
-/*推荐*/
+.week_popular ul li .nav_text{
+    font-size: .25rem;
+    line-height: .5rem;
+    margin-bottom: .3rem;
+}
+.week_popular .more{
+    font-size: .25rem;
+    margin-bottom: .2rem;
+}
+.week_popular .more span{
+}
+/*æŽ¨è*/
 .recommend{}
 .recommend .recommend_nav{
     width:  100%;
-    height:  50px;
+    /* height:  50px; */
     background:  chocolate;
     text-align:  center;
 }
@@ -204,7 +248,8 @@ display:  inline-block;
 }
 .recommend .recommend_nav ul li{
     display: block;
-    line-height: 50px;
+    font-size: .35rem;
+    line-height: .7rem;
     float:  left;
 }
 .recommend .recommend_nav ul li + li {
@@ -226,7 +271,12 @@ display:  inline-block;
     width:  100%;
     height:  auto;
 }
-.recommend .recommend_goods_list ul li .goods_title{}
+.recommend .recommend_goods_list ul li .goods_title{
+    font-size: .22rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
 .recommend .recommend_goods_list ul li .info{
     display:  inline-block;
     height: 50px;

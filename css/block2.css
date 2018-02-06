@@ -17,8 +17,8 @@ ul.block2_nav {
     padding: 0.1rem;
 }
 .block2_nav li +li{
-	margin-left: 6%;
-	border-bottom: red solid;
+    margin-left: 12%;
+    border-bottom: red solid;
 }
 /*商品列表*/
 ul.block_goodslist {
@@ -47,20 +47,34 @@ ul.block_goodslist {
     white-space: nowrap;
 }
 .block_goodslist li .price {
-    font-size: 0.5rem;
+    font-size: 0.35rem;
     color: #ff318c;
     text-align:  center;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 .block_goodslist li .buy_now {
     display:  inline-block;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     padding: 0.05rem 0.25rem;
-    height: 0.5rem;
-    line-height: 0.45rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
     color: #fff;
     background: #f41056;
     border-radius: 26px;
     text-align:  center;
 }
+/*回到顶部*/
+.back_top{
+    width: .8rem;
+    height: .8rem;
+    line-height: .7rem;
+    font-size: .35rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: #fff;
+    background: #333;
+    position: fixed;
+    bottom: 5%;
+    right: .5rem;
+}   

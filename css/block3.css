@@ -57,10 +57,10 @@ ul.block_goodslist {
 .block_goodslist li .price{}
 .block_goodslist li .price .now {
     display:  inline-block;
-    font-size: 0.5rem;
+    font-size: 0.35rem;
     color: #ff318c;
-    text-align:  center;
-    padding-bottom: 15px;
+    text-align: center;
+    padding-bottom: 5px;
 }
 .block_goodslist li .price .old {
 
@@ -75,12 +75,12 @@ text-decoration:  line-through;
 
 .block_goodslist li .buy_now {
     display:  inline-block;
-    font-size: 0.3rem;
+    font-size: 0.2rem;
     padding: 0.05rem 0.25rem;
-    height: 0.5rem;
-    line-height: 0.45rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
     color: #fff;
     background: #f41056;
     border-radius: 26px;
-    text-align:  center;
+    text-align: center;
 }

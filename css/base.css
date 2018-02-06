@@ -70,16 +70,18 @@ input,textarea{
 }
 .main_search{
     width:  100%;
-    height: 80px;
+    /* height: 80px; */
+    /* padding: .2rem 0px; */
     background:  greenyellow;
     float: left;
 }
 .header .logo{
-    width: 15%;
+    width: 20%;
     height:  0px;
-    padding-top: 11%;
+    padding-top: 12%;
     float:  left;
-    margin-left: -95%;
+    margin-left: -98%;
+    margin-top: 0.15rem;
     background: url("../images/logo.png") no-repeat;
     background-size:  contain;
 }
@@ -88,32 +90,36 @@ input,textarea{
     width: 6%;
     max-width: 23px;
     height: 0;
-    padding-top: 6%;
+    padding-top: 7%;
     background: #5457d7;
     position:  absolute;
-    left: 18%;
-    top: 11px;
+    left: 14%;
+    top: .3rem;
     background: url("../images/search.png") no-repeat;
     background-size:  contain;
 }
 .header form{
     margin: 0 50px 0 50px;
     text-align:  center;
-    line-height: 45px;
+    /* line-height: 45px; */
+    padding-top: .2rem;
     position:  relative;
 }
 .header input{
-    width: 65%;
-    height:  35px;
-    line-height:  35px; 
+    width: 75%;
+    height: .5rem;
+    line-height: .5rem;
+    background: #F4F4F4;
+    border-radius: 0.07rem;
 }
 .header .message{
     width: 6%;
     height: 0px;
-    padding-top: 4%;
+    padding-top: 6%;
     background:  indianred;
     float: left;
-    margin-left: -12%;
+    margin-left: -1rem;
+    margin-top: .25rem;
     background: url("../images/message.png") no-repeat;
     background-size:  contain;
 }
